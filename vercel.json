@@ -2,6 +2,12 @@
   "rewrites": [
     { "source": "/favicon.ico", "destination": "/favicon.ico" },
     { "source": "/images/:path*", "destination": "/images/:path*" },
+    { "source": "/privacy-policy-ru.html", "destination": "/privacy-policy-ru.html" },
+    { "source": "/privacy-policy-ka.html", "destination": "/privacy-policy-ka.html" },
+    { "source": "/privacy-policy-en.html", "destination": "/privacy-policy-en.html" },
+    { "source": "/terms-of-service-ru.html", "destination": "/terms-of-service-ru.html" },
+    { "source": "/terms-of-service-ka.html", "destination": "/terms-of-service-ka.html" },
+    { "source": "/terms-of-service-en.html", "destination": "/terms-of-service-en.html" },
     { "source": "/:path*", "destination": "/" }
   ]
 }
