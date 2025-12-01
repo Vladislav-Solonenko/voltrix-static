@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ka">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -29,16 +29,16 @@
     
     <!-- КНОПКИ ЯЗЫКОВ -->
     <div class="flex items-center gap-2">
-      <button id="btn-ka" class="px-3 py-1.5 rounded-full text-sm lang-btn" onclick="setLang('ka')">KA</button>
+      <button id="btn-ka" class="px-3 py-1.5 rounded-full text-sm lang-btn active" onclick="setLang('ka')">KA</button>
       <button id="btn-en" class="px-3 py-1.5 rounded-full text-sm lang-btn" onclick="setLang('en')">EN</button>
-      <button id="btn-ru" class="px-3 py-1.5 rounded-full text-sm lang-btn active" onclick="setLang('ru')">RU</button>
+      <button id="btn-ru" class="px-3 py-1.5 rounded-full text-sm lang-btn" onclick="setLang('ru')">RU</button>
     </div>
   </div>
 </header>
 
 
   <!-- RU -->
-  <main id="ru">
+  <main id="ru" class="hidden">
     <!-- Hero -->
     <section style="background-color:#78772C;">
       <div class="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8 pt-6 pb-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
@@ -267,7 +267,7 @@
   </main>
 
   <!-- KA -->
-  <main id="ka" class="hidden">
+  <main id="ka">
     <!-- Hero -->
     <section style="background-color:#78772C;">
       <div class="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8 pt-6 pb-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
