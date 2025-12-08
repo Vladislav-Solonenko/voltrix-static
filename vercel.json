@@ -8,6 +8,9 @@
     { "source": "/terms-of-service-ru.html", "destination": "/terms-of-service-ru.html" },
     { "source": "/terms-of-service-ka.html", "destination": "/terms-of-service-ka.html" },
     { "source": "/terms-of-service-en.html", "destination": "/terms-of-service-en.html" },
+    { "source": "/delete-account-ru.html", "destination": "/delete-account-ru.html" },
+    { "source": "/delete-account-ka.html", "destination": "/delete-account-ka.html" },
+    { "source": "/delete-account-en.html", "destination": "/delete-account-en.html" },
     { "source": "/:path*", "destination": "/" }
   ]
 }

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Удаление аккаунта — Voltrix</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#78772C; --accent:#E8C100; --text:#000000; }
+    body { font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica Neue, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+  </style>
+</head>
+<body class="bg-white text-[var(--text)]">
+  <!-- Header -->
+  <header class="w-full" style="background-color:#78772C;">
+    <div class="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8 pt-6 pb-6 flex items-center justify-between">
+      <div class="flex items-center">
+        <a href="/">
+          <img src="images/logo.png" alt="Voltrix Logo" class="h-10">
+        </a>
+        <span class="ml-2 text-white text-lg font-bold">Voltrix</span>
+      </div>
+      <a href="/" class="text-white/90 underline underline-offset-2 text-sm">← Назад на главную</a>
+    </div>
+  </header>
+
+  <!-- Content -->
+  <main class="py-12 sm:py-16">
+    <div class="mx-auto w-full max-w-4xl px-4 sm:px-6 lg:px-8">
+      <div class="prose prose-lg max-w-none">
+        <h1 class="text-3xl sm:text-4xl font-semibold mb-6">Удаление аккаунта</h1>
+        <div class="text-base leading-relaxed whitespace-pre-line text-gray-800">
+          <p class="text-lg font-semibold mb-4">Voltrix — Система аренды пауэрбанков</p>
+          <p class="mb-6">Разработчик: VOLTRIX LLC</p>
+
+          <h2 class="text-2xl font-semibold mt-8 mb-4">Как запросить удаление аккаунта</h2>
+
+          <p class="mb-4">Вы можете удалить свой аккаунт в приложении Voltrix в любое время. Удаление аккаунта является необратимым действием.</p>
+
+          <h3 class="text-xl font-semibold mt-6 mb-3">Пошаговая инструкция:</h3>
+
+          <ol class="list-decimal list-inside space-y-3 mb-6">
+            <li>Откройте приложение Voltrix на вашем устройстве</li>
+            <li>Войдите в свой аккаунт (если вы не авторизованы)</li>
+            <li>Перейдите в раздел "Профиль" (иконка профиля в меню)</li>
+            <li>Прокрутите вниз до раздела "Удалить аккаунт"</li>
+            <li>Нажмите на кнопку "Удалить аккаунт"</li>
+            <li>Подтвердите удаление в появившемся диалоговом окне</li>
+            <li>После подтверждения ваш аккаунт будет удален</li>
+          </ol>
+
+          <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-6">
+            <p class="font-semibold mb-2">⚠️ Важно: Удаление аккаунта невозможно в следующих случаях:</p>
+            <ul class="list-disc list-inside space-y-2">
+              <li>У вас есть активные аренды пауэрбанков — необходимо вернуть все пауэрбанки перед удалением аккаунта</li>
+              <li>У вас есть неоплаченные долги — необходимо оплатить все долги перед удалением аккаунта</li>
+            </ul>
+          </div>
+
+          <h2 class="text-2xl font-semibold mt-8 mb-4">Какие данные будут удалены</h2>
+
+          <p class="mb-4">При удалении аккаунта будут безвозвратно удалены следующие данные:</p>
+
+          <ul class="list-disc list-inside space-y-2 mb-6">
+            <li>Профиль пользователя (номер телефона, имя, email)</li>
+            <li>История аренд пауэрбанков</li>
+            <li>Привязанные банковские карты</li>
+            <li>История платежей и транзакций</li>
+            <li>Настройки приложения</li>
+            <li>Токены аутентификации</li>
+            <li>Все персональные данные, связанные с аккаунтом</li>
+          </ul>
+
+          <h2 class="text-2xl font-semibold mt-8 mb-4">Какие данные могут быть сохранены</h2>
+
+          <p class="mb-4">В соответствии с требованиями законодательства, некоторые данные могут быть сохранены на определенный срок:</p>
+
+          <ul class="list-disc list-inside space-y-2 mb-6">
+            <li>Финансовые данные и история транзакций — до 5 лет (требования налогового законодательства)</li>
+            <li>Логи системы и технические данные — до 30 дней (для обеспечения безопасности и устранения технических проблем)</li>
+            <li>Анонимизированные статистические данные — могут храниться в агрегированном виде без возможности идентификации пользователя</li>
+          </ul>
+
+          <h2 class="text-2xl font-semibold mt-8 mb-4">Сроки обработки запроса</h2>
+
+          <p class="mb-6">Удаление аккаунта происходит немедленно после подтверждения в приложении. Все данные удаляются в течение 24 часов с момента подтверждения удаления.</p>
+
+          <h2 class="text-2xl font-semibold mt-8 mb-4">Восстановление аккаунта</h2>
+
+          <p class="mb-6">После удаления аккаунта восстановление невозможно. Если вы хотите снова использовать сервис Voltrix, вам потребуется создать новый аккаунт с новым номером телефона.</p>
+
+          <h2 class="text-2xl font-semibold mt-8 mb-4">Контакты</h2>
+
+          <p class="mb-4">Если у вас возникли вопросы по поводу удаления аккаунта или вы столкнулись с проблемами при удалении, обратитесь в службу поддержки:</p>
+
+          <ul class="list-none space-y-2 mb-6">
+            <li>📧 Email: <a href="mailto:support@voltrix.ge" class="text-blue-600 underline">support@voltrix.ge</a></li>
+            <li>📞 Телефон: <a href="tel:+995533332125" class="text-blue-600 underline">+995 533 332 125</a></li>
+            <li>🌐 Веб-сайт: <a href="https://voltrix.ge" class="text-blue-600 underline" target="_blank">www.voltrix.ge</a></li>
+          </ul>
+
+          <p class="text-sm text-gray-600 mt-8">Последнее обновление: 2025</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="pt-12 pb-10" style="background-color:#78772C;">
+    <div class="mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+        <div class="flex items-center gap-3">
+          <img src="images/logo.png" alt="Voltrix Logo" class="h-8 w-auto block">
+          <div>
+            <p class="text-white font-semibold">Voltrix</p>
+          </div>
+        </div>
+        <div class="flex flex-wrap items-center gap-4 text-sm">
+          <a class="text-white/90 underline underline-offset-2" href="/terms-of-service-ru.html">Пользовательское соглашение</a>
+          <span class="text-white/50">·</span>
+          <a class="text-white/90 underline underline-offset-2" href="/privacy-policy-ru.html">Политика конфиденциальности</a>
+          <span class="text-white/50">·</span>
+          <a class="text-white/90 underline underline-offset-2" href="/delete-account-ru.html">Удаление аккаунта</a>
+          <span class="text-white/50">·</span>
+          <a class="text-white/90 underline underline-offset-2" href="https://voltrix.ge" target="_blank" rel="noreferrer">voltrix.ge</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
