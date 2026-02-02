@@ -1,0 +1,11 @@
+# Voltrix - Power Bank Rental Service
+# https://voltrix.ge
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://voltrix.ge/sitemap.xml
+
+# Crawl-delay for polite crawling (optional)
+Crawl-delay: 1
